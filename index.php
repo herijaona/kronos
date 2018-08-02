@@ -1,13 +1,14 @@
 
 <?php
-    include "include/require.php"; 
+    include "include/login.php"; 
     include "tpl/header.php"; 
 ?>
+    <div class="mt-4"></div>
     <div class="header">
         <div class="container">
             <div class="logo">
                 <h1>
-                    <a href="#">Cronos</a>
+                    <a href="#"><span>Cronos</span></a>
                 </h1>
             </div>
             <div class="date">
@@ -15,6 +16,7 @@
             </div>
         </div>
     </div>
+    <div class="mb-4"></div>
     <div class="content">
         <div class="container">
             <p class="welcome-portal">Bienvenu sur Le Portail Cronos</p>

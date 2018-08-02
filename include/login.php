@@ -13,6 +13,8 @@ if (isset($_POST['submit']) && (!empty($_POST['submit']))) {
       }   
       if(($_POST['mdp']) == $mdp){
           if(($_POST['identity']) == $identity['0']){
+                session_start();
+                $_SESSION['identity'] = ($_POST['identity']);
                 header("Location:technicien.php");   
                 exit; 
             }
