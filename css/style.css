@@ -1,0 +1,60 @@
+body{
+    background: #494d5f;
+    height: 23px;
+}
+.header{
+    height: 105px;
+    background: white;
+    margin-top: 22px;
+}
+.logo{
+    top: 18px;
+    position: relative;
+}
+.logo h1 a{
+    color: #494d5f;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.date{
+    float: right;
+    margin-top: -55px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.welcome-portal{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+.form-login .form-control{
+    margin-bottom: 25px;
+    height: 47px;
+    border-radius: 0px;
+    padding-left: 17px;
+}
+.submit-ok{
+    background: #95c11f;
+    float: right;
+    color: white;
+    border: none;
+    width: 64px;
+    font-weight: 500;
+    height: 33px;
+    font-size: 15px;
+}
+
+.form-login ::-webkit-input-placeholder {
+    font-style: italic;
+  }
+.form-login::-moz-placeholder { 
+    font-style: italic;
+  }
+.form-login:-ms-input-placeholder { 
+    font-style: italic;
+  }
+.form-login:-moz-placeholder {
+    font-style: italic;
+  }
