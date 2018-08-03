@@ -1,5 +1,7 @@
 <?php
-session_start ();
+@ob_start();
+session_start ();?>
+<?php
 $errors = [];
 $identity = array('technicien','chefservice','chefetablissement','corporate');
 $mdp ='motdepasse';
@@ -13,10 +15,14 @@ if (isset($_POST['submit']) && (!empty($_POST['submit']))) {
       }   
       if(($_POST['mdp']) == $mdp){
           if(($_POST['identity']) == $identity['0']){
-                session_start();
+                /* session_start(); */
                 $_SESSION['identity'] = ($_POST['identity']);
-                header("Location:technicien.php");   
-                exit; 
+                /* header("Location:technicien.php");   
+                exit; */ 
+
+                echo "
+                <script type='text/javascript'>document.location.replace('technicien.php?page=mapage');</script>";
+                exit();	 
             }
             if(($_POST['identity']) == $identity['1']){
                 header("Location:service.php");   

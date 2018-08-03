@@ -1,9 +1,12 @@
+<?php include "include/login.php";?>
 <?php include "tpl/header.php";?>
-<?php
-    session_start();
+<?php    
     if(empty($_SESSION['identity'])) {
-        header('Location: index.php');
-        exit();
+        /* header('Location: index.php');
+        exit(); */
+        echo "
+        <script type='text/javascript'>document.location.replace('technicien.php');</script>";
+        exit();	 
     }
     $page = basename($_SERVER['SCRIPT_NAME']);
 ?>

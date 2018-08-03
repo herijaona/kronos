@@ -1,7 +1,6 @@
-
 <?php
     include "include/login.php"; 
-    include "tpl/header.php"; 
+    include "tpl/header.php";    
 ?>
     <div class="mt-4"></div>
     <div class="header">

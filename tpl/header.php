@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 <?php 
-    if($_SERVER['REQUEST_URI'] == '/cronos/index.php'){ 
+    if($_SERVER['REQUEST_URI'] == '/kronos/index.php'){ 
     echo '<body>';
     }else{
     echo '<body class="all-page">';
