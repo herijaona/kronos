@@ -53,39 +53,7 @@
                 </form>
             </div>
         </nav>
-        <div id="tab-1" class="tab-content current q19-tech mt-4">
-            <div class="row text-center mb-70">
-                <div class="col-4">
-                    <i class="fa fa-file-pdf"></i>
-                    <p class="openImg">C-ALG RAM 10/2017</p>
-                </div>
-                <div class="col-4">
-                    <i class="fa fa-file-pdf"></i>
-                    <p>C-ALG RAM 10/2017</p>
-                </div>
-                <div class="col-4">
-                    <i class="fa fa-file-pdf"></i>
-                    <p>C-ALG RAM 10/2017</p>
-                </div>
-            </div>
-            <div class="row text-center mb-70 pdfu">
-                <div class="col-4">
-                    <i class="fa fa-file-pdf"></i>
-                    <p>C-ALG RAM 10/2017</p>
-                </div>
-                <div class="col-4">
-                    <i class="fa fa-file-pdf"></i>
-                    <p>C-ALG RAM 10/2017</p>
-                </div>
-                <div class="col-4">
-                    <i class="fa fa-file-pdf"></i>
-                    <p>C-ALG RAM 10/2017</p>
-                </div>
-            </div>
-            <img src="img/téléchargement.png" width="100%" class="down-img" alt="">
-            <iframe id="myFrame" style="display:none" width="100%" height="500px"></iframe>
-        </div>
-        <div id="tab-2" class="tab-content table-responsive pl-0 pr-0">
+        <div id="tab-2" class="tab-content current table-responsive pl-0 pr-0">
             <table class="table table-bordered tech-table text-center">
                 <thead>
                     <tr>
