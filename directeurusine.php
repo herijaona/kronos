@@ -2,8 +2,6 @@
 <?php include "tpl/header.php";?>
 <?php    
     if(empty($_SESSION['identity'])) {
-        /* header('Location: index.php');
-        exit(); */
         echo "
         <script type='text/javascript'>document.location.replace('technicien.php');</script>";
         exit();	 
@@ -96,6 +94,7 @@
                 </tbody>
                 </table>
             </div>
+
     </div>
 </div>
 <?php include "tpl/footer.php"; ?>

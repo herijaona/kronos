@@ -32,11 +32,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto tabs">
-                <!-- <li class="nav-item pl-0 pr-0">
-                    <a data-tab="tab-1"  class="nav-link pic" href="#">Certificats Q19</a>
-                </li> -->
                 <li class="nav-item pl-0 pr-0">
-                    <a data-tab="tab-2" class="nav-link current" href="#">Rapports<br> de controle</a>
+                    <a data-tab="tab-1"  class="nav-link current pic" href="#">Certificats Q19</a>
+                </li>
+                <li class="nav-item pl-0 pr-0">
+                    <a data-tab="tab-2" class="nav-link" href="#">Rapports<br> de controle</a>
                 </li>
                 <li class="nav-item pl-0 pr-0">
                     <a data-tab="tab-3" class="nav-link disabled" href="#">Armoires <br> electriques</a>
@@ -197,40 +197,6 @@
                     <li class="list-inline-item"><a href="#" data-tab="ano-2">Anomalies <br> résolues <br> <img src="img/ok2.PNG" alt=""></a></li>&nbsp;&nbsp;&nbsp;&nbsp;
                     <li class="list-inline-item"><a href="#" data-tab="ano-3">Anomalies <br> non résolues <br> <img src="img/del2.PNG" alt=""></a></li>
                 </ul>
-<!--                 <div id="ano-1" class="tab-c  table-responsive pl-0 pr-0">
-                    <table class="table table-bordered tech-table text-center">
-                    <thead>
-                        <tr>
-                            <th scope="col">Anomalies</th>
-                            <th scope="col">Date de controle</th>
-                            <th scope="col">N° Armoire electrique</th>
-                            <th scope="col">Priorite</th>
-                            <th scope="col">Anomalie resolue / <br> non resolue</th>
-                            <th scope="col">Consulte la fiche <br> d'anomalie</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>AN ALG10/2017 A1</td>
-                            <td>25/07/2018</td>
-                            <td>ALG -01</td>
-                            <td class="red">Priorite 1</td>
-                            <td>
-                                <img src="img/del.PNG" alt="">
-                            </td>
-                            <td>
-                                <i class="fa fa-file-pdf"></i>
-                            </td>
-                        </tr>
-                    </tbody>
-                    </table>
-                </div>
-                <div id="ano-2" class="tab-c text-center mt-4">
-                    test6
-                </div>
-                <div id="ano-3" class="tab-c text-center mt-4">
-                    test7
-                </div> -->
             </div>
     </div>
 </div>

@@ -98,7 +98,6 @@ ul.tabs li a.current{
     font-weight: 700;
     border: 1px solid;
 }
-
 ul.tabs{
     margin: 0px;
     padding: 0px;
@@ -207,6 +206,12 @@ ul.tabs li{
     font-size: 13.5px;
     width: 123px;
 }
+.anom-const li a.current{
+    color: #494d5f !important;
+    background: white;
+    font-weight: 700;
+    border: 1px solid;
+}
 .q19-tech  .fa-file-pdf {
     font-size: 37px;
     color: #ffffff;
@@ -235,4 +240,14 @@ ul.tabs li{
 .down-img{
     display: none;
     border: 1px solid #d8d8d8;
+}
+.tab-c {
+    display: none;
+    padding: 15px;
+}
+.current2{
+    display: block;
+}
+.current3{
+    display: none;
 }

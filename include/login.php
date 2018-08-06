@@ -3,7 +3,7 @@
 session_start ();?>
 <?php
 $errors = [];
-$identity = array('technicien','chefservice','chefetablissement','corporate');
+$identity = array('technicien','chefdeservice','responsablehse','directeurusine','corporate');
 $mdp ='motdepasse';
 if (isset($_POST['submit']) && (!empty($_POST['submit']))) {
       if(!in_array(($_POST['identity']), $identity, true) || ($_POST['mdp']) != $mdp){
@@ -19,25 +19,35 @@ if (isset($_POST['submit']) && (!empty($_POST['submit']))) {
                 $_SESSION['identity'] = ($_POST['identity']);
                 /* header("Location:technicien.php");   
                 exit; */ 
-
                 echo "
-                <script type='text/javascript'>document.location.replace('technicien.php?page=mapage');</script>";
+                <script type='text/javascript'>document.location.replace('technicien.php');</script>";
                 exit();	 
             }
             if(($_POST['identity']) == $identity['1']){
-                header("Location:service.php");   
-                exit; 
+                $_SESSION['identity'] = ($_POST['identity']);
+                echo "
+                <script type='text/javascript'>document.location.replace('chefdeservice.php');</script>";
+                exit();	 
             }
             if(($_POST['identity']) == $identity['2']){
-                header("Location:etablissement.php");   
-                exit; 
+                $_SESSION['identity'] = ($_POST['identity']);
+                echo "
+                <script type='text/javascript'>document.location.replace('responsablehse.php');</script>";
+                exit();	 
             }
             if(($_POST['identity']) == $identity['3']){
-                header("Location:corporate.php");   
-                exit; 
+                $_SESSION['identity'] = ($_POST['identity']);
+                echo "
+                <script type='text/javascript'>document.location.replace('directeurusine.php');</script>";
+                exit();	
+            }
+            if(($_POST['identity']) == $identity['4']){
+                $_SESSION['identity'] = ($_POST['identity']);
+                echo "
+                <script type='text/javascript'>document.location.replace('corporate.php');</script>";
+                exit();	 
             }
       }
 }
 
 ?>
-
