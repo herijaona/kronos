@@ -23,6 +23,9 @@ body{
 }
 .logo h1 span{
     color: #95c11f;
+    font-size: 2.5rem;
+    top: 7px;
+    position: relative;
 }
 .date{
     float: right;
@@ -77,8 +80,8 @@ body{
     box-shadow: 1px 0px 2px 0px #a5a5a5;
     font-weight: 500;
     font-size: 13px;  
-    padding-left: 20px !important;
-    padding-right: 20px !important;  
+    padding-left: 30px !important;
+    padding-right: 30px !important; 
     display: table-cell;
     vertical-align: middle;
     height: 45px;
@@ -111,10 +114,125 @@ ul.tabs li{
 
 .tab-content{
     display: none;
-    background: #ededed;
     padding: 15px;
 }
 
 .tab-content.current{
     display: inherit;
+}
+
+/* base table */
+.tech-table{
+    color: #494d5f;
+}
+.tech-table thead tr th{
+    width: 16.66%;
+    border-bottom: 8px solid white;
+
+    display: table-cell;
+    vertical-align: top;
+    height: 45px;
+    line-height: 15px;
+    font-size: 13px;
+    text-align: center;
+}
+.tech-table thead tr th:not(:first-child){
+    border-left: 10px solid white;
+}
+.tech-table tbody tr td{
+    width: 16.66%;
+    border-bottom: 8px solid white;
+    font-size: 13px;
+    font-weight: 500;
+    display: table-cell;
+    vertical-align: middle;
+}
+.tech-table tbody  tr td:not(:first-child){
+    border-left: 10px solid white;
+}
+.tech-table thead tr, .tech-table tbody tr td{
+    background: #ededed;
+}
+.tech-table .orange{
+    background: #ff7d00;
+    color: white;
+}
+.tech-table .red{
+    background: #ff0000;
+    color: white;
+}
+.tech-table .green{
+    background: #95c11f;
+    color: white;
+}
+.tech-table .priorite1{
+    color: #ff7d00;
+}
+.tech-table .priorite2{
+    color: #ff0000 ;
+}
+.tech-table .priorite3{
+    color: #005fff ;
+}
+/* end base table */
+
+.tech-table .fa-file-pdf{
+    font-size: 28px;
+    color: #ededed;
+    background: #494d5f;
+    border: 1.5px solid #494d5f;
+}
+.anom-const{
+    display: inline-table;
+}
+.anom-const li img{
+    top: 7px;
+    position: relative;
+}
+.anom-const li a{
+   color: #494d5f;
+   text-decoration: none;
+}
+.anom-const li{
+    border-radius: 7px;
+    box-shadow: 0px 0px 3px 0px #afafaf;
+    color: #8a8a8a !important;
+    background: white;
+    font-weight: 700;
+    border: 0.5px solid;
+    height: 118px;
+    line-height: 17px;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 13.5px;
+    width: 123px;
+}
+.q19-tech  .fa-file-pdf {
+    font-size: 37px;
+    color: #ffffff;
+    background: #494d5f;
+    border: 1.5px solid #494d5f;
+}
+.q19-tech .row{
+    width: 90%;
+    margin: auto;
+}
+.q19-tech p{
+    color: #494d5f;
+    font-size: 14px;
+    padding-top: 12px;
+    font-weight: 600;
+}
+.q19-tech .mb-70{
+    margin-bottom: 70px;
+}
+.search-top{
+    box-shadow: 0px 0.5px 0px 0px rgba(73,77,95,0.5);
+    width: 240px !important;
+    font-size: 11px;
+    height: 40px;
+}
+.down-img{
+    display: none;
+    border: 1px solid #d8d8d8;
 }
